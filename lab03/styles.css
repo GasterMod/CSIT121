@@ -7,3 +7,9 @@ p, h1, h2, h3, li {
 a {
     color: #FFFFFF;
 }
+.post2class {
+    color: orange;
+}
+#post2tag {
+    color: yellow;
+}
