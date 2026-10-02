@@ -1,15 +1,18 @@
 body {
     background-color: black;
 }
-p, h1, h2, h3, li {
+h1, h2, h3 {
+    color: #CBC3E3;
+}
+p, li, footer {
     color: #CBC3E3;
 }
 a {
     color: #FFFFFF;
 }
-.post2class {
+#post2tag p {
     color: orange;
 }
-#post2tag {
+.post2class {
     color: yellow;
 }
