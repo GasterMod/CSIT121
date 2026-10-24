@@ -1,0 +1,13 @@
+body {
+    font-family: Arial;
+    background-image: url('bg.png');
+}
+h1, h2, h3 {
+    color: #FFFFFF;
+}
+p, li, footer {
+    color: #FFFFFF;
+}
+a {
+    color: cyan;
+}
