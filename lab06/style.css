@@ -1,0 +1,47 @@
+body {
+    background-image: url('bg.png');
+    background-color: black;
+}
+article {
+    flex: 1;
+    padding: 10px;
+    margin: 10px;
+}
+nav ul{
+    list-style: none;
+    display:flex;
+    flex-direction: column;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    font-size: 17px;
+}
+h3, p, li, footer {
+    color: white;
+}
+h2 {
+    background: white;
+    color: black;
+}
+h1 {
+    background: white;
+    color: black;
+    text-align: center;
+    font-size: 40px;
+}
+a {
+    color: cyan;
+}
+#post2tag p {
+color: orange;
+}
+.post2class {
+    color: yellow;
+}
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row;
+    }
+}
